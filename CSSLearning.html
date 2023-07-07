@@ -20,8 +20,7 @@
       }
       /* This is the combinator selector, which is not recommended */
       #summary2,
-      #summary3,
-      h3 {
+      #summary3 {
         color: cadetblue;
         font-weight: bolder;
         font-size: larger;
@@ -47,10 +46,29 @@
         text-align: center;
         font-family: "Courier New", Courier, monospace;
       }
-      .dolor{
-        color: aqua;
+      .dolor {
+        color: brown;
         text-decoration: underline;
-
+      }
+      .education {
+        border: 5px solid rgb(83, 62, 62);
+        /* padding-top: 30px;
+            padding-right: 50px;
+            padding-bottom: 30px;
+            padding-left: 50px; */
+        /* padding: 30px 50px 30px 50px; */
+        /* padding: 30px 50px; */
+        padding: 20px;
+        /* margin-top: 100px;
+            margin-right: 30px;
+            margin-bottom: 100px;
+            margin-left: 50px; */
+        /* margin: 100px 50px; */
+        margin: 50px;
+      }
+      .office {
+        border: 2px solid orange;
+        padding: 30px;
       }
     </style>
   </head>
@@ -86,9 +104,14 @@
     </ul>
 
     <p class="para">
-      lorem <span class="dolor">sit amet consectetur</span>  adipisicing elit. Perferendis rem
-      impedit modi. Voluptatum est veritatis corporis quaerat non numquam eum
-      qui. Odio totam neque magnam eligendi deleniti debitis consequatur magni!
+      Lorem <span class="dolor">ipsum dolor sit</span> amet consectetur
+      adipisicing elit. Perferendis rem impedit modi. Voluptatum est veritatis
+      corporis quaerat non numquam eum qui. Odio totam neque magnam eligendi
+      deleniti debitis consequatur magni!
     </p>
+
+    <p class="education">My Education Detail</p>
+
+    <h3 class="office">My Office Address</h3>
   </body>
 </html>
