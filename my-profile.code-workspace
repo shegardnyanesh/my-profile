@@ -8,5 +8,7 @@
 			"path": "C:/Users/Public/my-profile"
 		}
 	],
-	"settings": {}
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "my-profile"
+	}
 }
