@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>calculator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <style>
+        .boxBorder{
+            border: 2px solid red;
+        }
+        .mainheading{
+            color: rgb(255, 140, 0);
+            font-size: 17px;
+            font-weight: bold;
+            /* padding: 40px 0px; */
+            margin: 40px 0px;
+            font-family: 'Poppins', sans-serif;
+        }
+        ul{
+            list-style: none;
+        }
+        h2{
+            align-self: center;
+            padding-left: 120px;
+            font-family: 'Open Sans', sans-serif;
+        }
+        .BillAmount{
+            font-family: 'Open Sans', sans-serif;
+        }
+        input{
+            margin: 10px 0px;
+            padding: 10px 120px;
+            border-radius: px;
+            background-color: rgb(255, 251, 245);
+        }
+        button{
+            font-weight: bold;
+            border-radius: 5px;
+            margin: 10px 0px;
+            padding: 10px 178px;
+            font-family: 'Poppins', sans-serif;
+            background-color: rgb(255, 140, 0);
+            color: #ffffff;
+
+        }
+
+    </style>
+</head>
+<body>
+    <div class="boxBorder">
+        <h2>Discount Calculator</h2>
+        <ul>
+            <li><span class="mainheading">Enter the Bill amount and discount in percentage</span></h3></li>
+            <li><label class="Billamount">Bill Amount</label></li>
+            <li><input type="number"></li>
+            <li><span class="BillAmount">Discount Percentage</span></h3></li>
+            <li><input type="number" maxlength="100"></li>
+            <li><button>Calculate</button></li>
+            <li><label class="Billamount"> Total Discount Amount </label></li>
+        </ul>
+    </div>
+</body>
+</html>
